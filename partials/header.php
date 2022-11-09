@@ -10,7 +10,7 @@
               <nav class="mainmenu mobile-menu">
                   <ul>
                       <!-- <li class="active"><a href="./index.php">Home</a></li> -->
-                      <li><a href="index.php#about">About Us</a></li>
+                      <li><a href="index.php#about">about</a></li>
                       <li><a href="committee.php">COMMITTEE</a>
                       </li>
                       <li><a href="call-for-papper.php">CALL FOR PAPER</a>

@@ -39,7 +39,7 @@
                         <a href="#" class="footer-logo"><img src="img/logo.png"width="200" alt=""></a>
                     </div> -->
                     <ul>
-                    <li><a href="index.html#about">ABOUT US</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
                       <li><a href="committee.html">COMMITTEE</a>
                       </li>
                       <li><a href="call-for-papper.html">CALL FOR PAPER</a>
