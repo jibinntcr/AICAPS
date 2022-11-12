@@ -28,7 +28,17 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!-- <link rel="stylesheet" href="css/tablestyle.css" type="text/css"> -->
   </head>
+<script>
+  function tooglecss() {
 
+  var x = document.getElementById("navbarCollapse");
+  if (x.className === "collapse navbar-collapse") {
+    x.className = "navbar-collapse";
+  } else {
+    x.className = "collapse";
+  }
+}
+  </script>
   <body>
     <div class="container-xxl p-0">
       <!-- Page Preloder -->
@@ -61,10 +71,11 @@
           </a>
           <button
             type="button"
+            onClick="tooglecss()"
             class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-          >
+           
+          
+            >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
