@@ -32,7 +32,7 @@
   function tooglecss() {
 
   var x = document.getElementById("navbarCollapse");
-  if (x.className === "collapse") {
+  if (x.className === "collapse navbar-collapse" || x.className === "collapse" ) {
     x.className = "navbar-collapse";
   } else {
     x.className = "collapse";
@@ -56,13 +56,13 @@
             class="navbar-brand d-flex align-items-center text-center"
           >
             <!-- <div class="icon p-2 me-2">
-              <img
-                class="img-fluid"
-                src="img/icon-deal.png"
-                alt="Icon"
-                style="width: 30px; height: 30px"
-              />
-            </div> -->
+                <img
+                  class="img-fluid"
+                  src="img/icon-deal.png"
+                  alt="Icon"
+                  style="width: 30px; height: 30px"
+                />
+              </div> -->
             <img
               src="img/logo_cap.png"
               class="m-0 text-primary"
@@ -71,16 +71,17 @@
           </a>
           <button
             type="button"
-            onClick="tooglecss()"
             class="navbar-toggler"
-           
-          
-            >
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse" id="navbarCollapse">
+          <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-              <a href="#about" class="nav-item nav-link active">About</a>
+              <a href="index.html#about" class="nav-item nav-link active"
+                >About</a
+              >
               <a href="committee.html" class="nav-item nav-link">Committee</a>
               <a href="#" class="nav-item nav-link">Speakers</a>
               <a href="call-for-paper.html" class="nav-item nav-link"
@@ -107,7 +108,7 @@
                 <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
               </div>
               <div class="owl-carousel-item">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                <img class="img-fluid" src="img/img2.png" alt="" />
               </div>
             </div>
           </div>
@@ -200,7 +201,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="ha-pic">
-                <img src="img/h-about.png" alt="" />
+                <img src="img/Homeimg2.jpg" alt="" />
               </div>
             </div>
             <div class="col-lg-6">
@@ -446,15 +447,35 @@
                               <h5>LAST DATE OF SUBMISSION</h5>
                             </td>
                             <td class="hover-bg">
-                              <h5 class="newdate">15 December 2022</h5>
+                              <h5>15 December 2022</h5>
                             </td>
                           </tr>
+                          <!-- <tr>
+                                                <td class="hover-bg">
+                                                    <h5>FIRST REVIEW REPORT</h5>
+                                                </td>
+                                                <td class="hover-bg">
+                                                    <h5>15 NOVEMBER 2022</h5>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td class="hover-bg">
+                                                    <h5>SUBMISSION AFTER CORRECTION</h5>
+                                                </td>
+                                                <td class="hover-bg">
+                                                    <h5>1 DECEMBER 2022</h5>
+                                                    <p><span>By</span> Mc Cage</p>
+                                                </td>
+
+                                            </tr> -->
                           <tr>
                             <td class="hover-bg">
                               <h5>FINAL ACCEPTANCE NOTIFICATION</h5>
                             </td>
                             <td class="hover-bg">
-                              <h5 class="newdate">20 December 2022</h5>
+                              <h5>20 December 2022</h5>
+                              <!-- <p><span>By</span> Thomas Munoz</p> -->
                             </td>
                           </tr>
                           <tr>
@@ -462,7 +483,8 @@
                               <h5>CAMERA READY COPY</h5>
                             </td>
                             <td class="hover-bg">
-                              <h5 class="newdate">30 December 2022</h5>
+                              <h5>30 December 2022</h5>
+                              <!-- <p><span>By</span> Thomas Munoz</p> -->
                             </td>
                           </tr>
                           <tr>
@@ -470,8 +492,8 @@
                               <h5>CONFERENCE DATE</h5>
                             </td>
                             <td class="hover-bg">
-                              <!-- <h5 class="strike">1, 2 & 3 FEBRUARY 2023</h5> -->
-                              <h5 class="newdate">1, 2 & 3 FEBRUARY 2023</h5>
+                              <h5>1<sup>st</sup> to 3<sup>st</sup> FEBRUARY 2023</h5>
+                              <!-- <p><span>By</span> Thomas Munoz</p> -->
                             </td>
                           </tr>
                         </tbody>
@@ -1133,7 +1155,7 @@
                     <script>
                       document.write(new Date().getFullYear());
                     </script>
-                    AICAP 2023. All rights reserved. <br />Designed By
+                    AICAPS 2023. All rights reserved. <br />Designed By
                     <a href="http://infinio.co.in/" target="_blank">infinio</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                   </p>
@@ -1179,7 +1201,7 @@
     </script>
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
