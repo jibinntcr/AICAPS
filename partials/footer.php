@@ -42,7 +42,7 @@
                     <li><a href="index.html#about">ABOUT</a></li>
                       <li><a href="committee.html">COMMITTEE</a>
                       </li>
-                      <li><a href="call-for-papper.html">CALL FOR PAPER</a>
+                      <li><a href="call-for-paper.html">CALL FOR PAPER</a>
                       <li><a href="index.html#imp_dates">IMPORTANT DATES</a></li>
                       <!-- <li><a href="./blog.html">Blog</a></li> -->
                       <li><a href="index.html#registration">REGISTRATIONS</a></li>
